@@ -1,0 +1,1716 @@
+@media (min-width: 1280px) {
+.div {
+  	position: relative;
+  	line-height: 22px;
+}
+.navbar {
+  	position: absolute;
+  	top: 11px;
+  	left: 0px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 24px;
+}
+.navbar a {
+    color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none;
+ } /* Убираем подчеркивание текста */
+.div4 {
+  	position: relative;
+  	line-height: 28px;
+  	font-weight: 600;
+}
+.button1 {
+  	position: absolute;
+  	top: 0px;
+  	right: 0px;
+  	border-radius: 100px;
+  	border: 1px solid #716af4;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 20px;
+  	text-align: right;
+  	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+.button1 a {
+    color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+
+.button1:hover {
+	background-color: #716af4;
+	color:#fff
+}
+
+.button1:active {
+    background-color: #716af4;
+    border: 1px solid #fff; /* Добавим белую рамку */
+	color:#fff
+}
+
+.header {
+  	position: absolute;
+  	width: calc(100% - 80px);
+  	top: 40px;
+  	right: 40px;
+  	left: 40px;
+  	height: 44px;
+  	font-size: 14px;
+  	color: #716af4;
+	
+}
+.background-icon {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	border-radius: 24px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 642px;
+}
+.p {
+  	margin: 0;
+}
+.p1 {
+  	margin: 0;
+  	white-space: pre-wrap;
+}
+.h1 {
+  	position: absolute;
+  	top: 102px;
+  	left: 40px;
+  	line-height: 116px;
+  	display: inline-block;
+  	width: 628px;
+}
+.subtitle {
+  	position: absolute;
+  	top: 70px;
+  	left: 40px;
+  	font-size: 14px;
+  	line-height: 28px;
+  	display: inline-block;
+  	width: 342px;
+}
+.button2 {
+  	position: absolute;
+  	top: 490px;
+  	left: 40px;
+  	border-radius: 100px;
+  	background-color: #ff8c4b;
+  	width: 329px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 38px;
+  	box-sizing: border-box;
+  	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+
+.button2 a {
+    color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+
+.button2:hover {
+	background-color: #ffad61;
+	color:#fff
+}
+
+.button2:active {
+    background-color: #FF7C32;
+	color:#fff
+}
+.cat-and-girl-icon {
+  	position: absolute;
+  	top: 10px;
+  	right: 0px;
+  	width: 504px;
+  	height: 489px;
+}
+.e {
+  	position: absolute;
+  	top: 121px;
+  	right: 365px;
+  	line-height: 56px;
+  	display: inline-block;
+  	width: 4px;
+}
+.n {
+  	position: absolute;
+  	top: 49px;
+  	right: 302px;
+  	line-height: 56px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 9px;
+}
+.g {
+  	position: absolute;
+  	top: 97px;
+  	right: 244px;
+  	line-height: 56px;
+  	color: #ffe55d;
+  	display: inline-block;
+  	width: 5px;
+}
+.l {
+  	position: absolute;
+  	top: 0px;
+  	right: 201px;
+  	line-height: 56px;
+  	color: #ffad61;
+}
+.i {
+  	position: absolute;
+  	top: 11px;
+  	right: 91px;
+  	line-height: 56px;
+  	color: #fff;
+  	display: inline-block;
+  	width: 5px;
+  	transform:  rotate(180deg);
+  	transform-origin: 0 0;
+}
+.s {
+  	position: absolute;
+  	top: 79px;
+  	right: 56px;
+  	line-height: 56px;
+  	display: inline-block;
+  	width: 2px;
+}
+.h {
+  	position: absolute;
+  	top: 21px;
+  	right: 0px;
+  	line-height: 56px;
+  	color: #ffe55d;
+  	display: inline-block;
+  	width: 9px;
+}
+.abc {
+  	position: absolute;
+  	top: 0px;
+  	right: 60px;
+  	width: 369px;
+  	height: 177px;
+}
+.illustration {
+  	position: absolute;
+  	top: 74px;
+  	right: 40px;
+  	width: 504px;
+  	height: 499px;
+  	font-size: 40px;
+  	color: #ff8c4b;
+  	font-family: Quando;
+}
+.mainscreen {
+  	position: absolute;
+  	width: 93.33%;
+  	top: 124px;
+  	right: 3.33%;
+  	left: 3.33%;
+  	height: 642px;
+  	font-size: 96px;
+	border-radius: 24px 24px 24px 24px;
+  	background: radial-gradient(50% 50% at 50% 50%, #716af4, #748aff);
+  	
+}
+.card-bg1 {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	border-radius: 24px;
+  	border: 1px solid #716af4;
+  	box-sizing: border-box;
+  	height: 168px;
+}
+.icon1-parent {
+  	position: absolute;
+  	top: 20px;
+  	left: 20px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 12px;
+}
+.icon2-parent {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 12px;
+	
+}
+.subtitle1 {
+  	position: absolute;
+  	width: calc(100% - 40px);
+  	top: 84px;
+  	left: 20px;
+  	font-size: 14px;
+  	line-height: 22px;
+  	display: inline-block;
+}
+.card1 {
+  	position: absolute;
+  	width: 29.75%;
+  	top: 826px;
+  	right: 66.92%;
+  	left: 3.33%;
+  	height: 168px;
+  	color: #716af4;
+}
+.card2 {
+  	position: absolute;
+  	width: 29.75%;
+  	top: 826px;
+  	right: 35.17%;
+  	left: 35.08%;
+  	height: 168px;
+  	color: #716af4;
+}
+.card-bg11 {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0px;
+  	left: 0px;
+  	border-radius: 24px;
+  	background-color: #ff8c4b;
+  	height: 168px;
+}
+.card3 {
+  	position: absolute;
+  	width: 29.83%;
+  	top: 826px;
+  	right: 3.33%;
+  	left: 66.83%;
+  	height: 168px;
+}
+.img-icon {
+  	position: absolute;
+  	width: 48.93%;
+  	top: 109px;
+  	right: 0%;
+  	left: 51.07%;
+  	border-radius: 24px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 640px;
+  	object-fit: cover;
+}
+.card-bg-about-me {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	border-radius: 24px;
+  	background-color: #716af4;
+  	height: 640px;
+}
+.text {
+  	position: absolute;
+  	width: calc(100% - 80px);
+  	top: 40px;
+  	left: 40px;
+  	line-height: 28px;
+  	display: inline-block;
+}
+.vector2-icon {
+  	position: absolute;
+  	top: 488px;
+  	right: 0.18px;
+  	width: 182px;
+  	height: 152px;
+}
+.card-about-me {
+  	position: absolute;
+  	width: 48.93%;
+  	top: 109px;
+  	right: 51.07%;
+  	left: 0%;
+  	height: 640px;
+	font-family: 'Open Sans';
+}
+.title-about-me {
+  	position: absolute;
+  	top: 0px;
+  	left: 40px;
+  	font-size: 48px;
+  	line-height: 68px;
+  	color: #ff8c4b;
+  	display: inline-block;
+  	width: 199.9px;
+	font-family: 'Open Sans';
+}
+.about-me {
+  	position: absolute;
+  	width: 93.33%;
+  	top: 1054px;
+  	right: 3.33%;
+  	left: 3.33%;
+  	height: 749px;
+	font-family: OpenSans;
+}
+.card-bg4 {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	border-radius: 24px;
+  	background-color: #ffad61;
+  	height: 542px;
+}
+.svg-individual-icon {
+  	position: absolute;
+  	top: 100px;
+  	left: calc(50% - 77px);
+  	width: 154.4px;
+  	height: 154px;
+  	overflow: hidden;
+}
+.icon4 {
+  	width: 48px;
+  	position: relative;
+  	height: 48px;
+  	z-index: 1;
+}
+.title4 {
+  	position: relative;
+  	line-height: 28px;
+  	font-weight: 600;
+  	z-index: 0;
+}
+.icon4-parent {
+  	position: absolute;
+  	top: 40px;
+  	left: calc(50% - 151px);
+  	width: 301.7px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 12px;
+}
+.span {
+  	font-weight: 600;
+}
+.b {
+  	font-family: 'Open Sans';
+}
+.span2 {
+  	font-weight: 600;
+  	font-family: 'Open Sans';
+}
+.subtitle4 {
+  	position: absolute;
+  	width: calc(100% - 80.2px);
+  	top: 278px;
+  	left: 40px;
+  	font-size: 14px;
+  	line-height: 22px;
+  	text-align: center;
+  	display: inline-block;
+}
+.div6 {
+  	position: absolute;
+  	top: 406px;
+  	left: calc(50% - 37px);
+  	line-height: 28px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 73.2px;
+}
+.button3 {
+
+  	position: absolute;
+  	top: 458px;
+  	left: calc(50% - 72px);
+  	border-radius: 100px;
+  	border: 1px solid #fff;
+  	box-sizing: border-box;
+  	width: 144.3px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 20px;
+  	text-align: right;
+	transition: background-color 0.3s ease;
+}
+.button3 a {
+	color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button3:hover {
+	background-color: #fff;
+	color: #ffad61;
+}
+.button3:active {
+	background-color: #fff;
+	border: 1px solid #ffad61;
+	color: #ffad61;
+}
+.card-orange {
+  	position: absolute;
+  	width: 31.94%;
+  	top: 108px;
+  	right: 68.06%;
+  	left: 0%;
+  	height: 542px;
+}
+.card-bg5 {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	border-radius: 24px;
+  	background-color: #748aff;
+  	height: 542px;
+}
+.svg-group-icon {
+  	position: absolute;
+  	top: 100px;
+  	left: calc(50% - 77px);
+  	width: 154.4px;
+  	height: 154px;
+  	overflow: hidden;
+}
+.icon5-parent {
+  	position: absolute;
+  	top: 40px;
+  	left: calc(50% - 114px);
+  	width: 228.2px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 12px;
+}
+
+.button4 {
+	position: absolute;
+	top: 458px;
+	left: calc(50% - 72px);
+	border-radius: 100px;
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	width: 144.3px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 20px;
+	text-align: right;
+	transition: background-color 0.3s ease;
+}
+.button4 a {
+	color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button4:hover {
+	background-color: #fff;
+	color: #748aff;
+}
+.button4:active {
+	background-color: #fff;
+	border: 1px solid #748aff;
+	color: #748aff;
+	
+}
+.card-blue {
+  	position: absolute;
+  	width: 31.94%;
+  	top: 108px;
+  	right: 33.99%;
+  	left: 34.08%;
+  	height: 542px;
+}
+.card-bg6 {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	border-radius: 24px;
+  	background-color: #716af4;
+  	height: 542px;
+
+}
+.icon6-parent {
+  	position: absolute;
+  	top: 40px;
+  	left: calc(50% - 89.5px);
+  	width: 179.7px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: flex-start;
+  	gap: 12px;
+}
+.subtitle6 {
+  	position: absolute;
+  	width: calc(100% - 80px);
+  	top: 278px;
+  	left: 40px;
+  	font-size: 14px;
+  	line-height: 22px;
+  	text-align: center;
+  	display: inline-block;
+}
+.div10 {
+  	position: absolute;
+  	top: 406px;
+  	left: calc(50% - 36.5px);
+  	line-height: 28px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 73px;
+}
+.button5 {
+  	position: absolute;
+  	top: 458px;
+  	left: calc(50% - 71.5px);
+  	border-radius: 100px;
+  	border: 1px solid #fff;
+  	box-sizing: border-box;
+  	width: 144px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 20px;
+  	text-align: right;
+	transition: background-color 0.3s ease;
+}
+.button5 a {
+	color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button5:hover {
+	background-color: #fff;
+	color: #716af4;
+}
+.button:active {
+	background-color: #fff;
+	border: 1px solid #716af4;
+	color: #716af4;
+}
+.svg-homework-icon {
+  	position: absolute;
+  	top: 100px;
+  	left: calc(50% - 76.5px);
+  	width: 154px;
+  	height: 154px;
+  	overflow: hidden;
+}
+.card-purple {
+  	position: absolute;
+  	width: 31.85%;
+  	top: 108px;
+  	right: 0%;
+  	left: 68.15%;
+  	height: 542px;
+}
+.title-srvices {
+  	position: absolute;
+  	top: 0px;
+  	left: 41px;
+  	font-size: 48px;
+  	line-height: 68px;
+  	color: #716af4;
+}
+.services {
+  	position: absolute;
+  	width: 93.42%;
+  	top: 1863px;
+  	right: 3.33%;
+  	left: 3.25%;
+  	height: 650px;
+}
+.banner-bg {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	border-radius: 24px;
+  	background-color: #716af4;
+  	height: 226px;
+}
+.title7 {
+  	position: absolute;
+  	top: 40px;
+  	left: 40px;
+  	line-height: 68px;
+  	display: inline-block;
+  	width: 549px;
+}
+.span12 {
+  	font-family: 'Open Sans';
+  	color: #fff;
+}
+.span14 {
+  	color: #ffad61;
+}
+.span15 {
+  	color: #fff;
+}
+.p18 {
+  	margin: 0;
+  	color: #fff;
+}
+.subtitle7 {
+  	position: absolute;
+  	top: 120px;
+  	left: 40px;
+  	font-size: 14px;
+  	line-height: 22px;
+  	display: inline-block;
+  	width: 397px;
+  	color: #ffad61;
+}
+.vector3-icon {
+  	position: absolute;
+  	width: calc(100% - 964.6px);
+  	top: 0px;
+  	right: 371.89px;
+  	left: 592.71px;
+  	max-width: 100%;
+  	overflow: hidden;
+  	height: 226px;
+  	object-fit: contain;
+}
+.button6 {
+  	position: absolute;
+  	top: 134px;
+  	right: 40px;
+  	border-radius: 100px;
+  	background-color: #ff8c4b;
+  	width: 329px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 12px 38px;
+  	box-sizing: border-box;
+  	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+.button6 a {
+    color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+
+.button6:hover {
+	background-color: #ffad61;
+	color:#fff
+}
+
+.button6:active {
+    background-color: #FF7C32;
+	color:#fff
+}
+.banner {
+  	position: absolute;
+  	width: 93.42%;
+  	top: 2573px;
+  	right: 3.33%;
+  	left: 3.25%;
+  	height: 226px;
+  	font-size: 48px;
+}
+.footer-bg {
+  	position: absolute;
+  	width: 100%;
+  	top: 0px;
+  	right: 0%;
+  	left: 0%;
+  	border-radius: 24px 24px 0px 0px;
+  	background: radial-gradient(50% 50% at 50% 50%, #716af4, #748aff);
+  	height: 220px;
+}
+.subtitle-8 {
+  	position: absolute;
+  	top: 40px;
+  	left: 80px;
+  	line-height: 28px;
+  	font-weight: 600;
+  	text-align: left;
+}
+.mail-icon {
+  	width: 48px;
+  	position: relative;
+  	height: 48px;
+}
+.contacts {
+  	position: absolute;
+  	top: 92px;
+  	left: 80px;
+  	width: 119.8px;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: flex-start;
+  	justify-content: flex-start;
+  	gap: 24px;
+}
+.button7 {
+  	position: absolute;
+  	top: 94px;
+  	right: 459.26px;
+  	border-radius: 100px;
+  	border: 1px solid #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 20px;
+	transition: background-color 0.3s ease;
+}
+.button7 a {
+	color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button7:hover {
+	background-color: #fff;
+	color: #716af4;
+}
+.button7:active {
+	background-color: #fff;
+	border: 1px solid #716af4;
+	color: #716af4;
+}
+.button8 {
+  	position: absolute;
+  	top: 94px;
+  	right: 317.26px;
+  	border-radius: 100px;
+  	border: 1px solid #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 20px;
+	transition: background-color 0.3s ease;
+}
+.button8 a {
+	color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button8:hover {
+	background-color: #fff;
+	color: #716af4;
+}
+.button8:active {
+	background-color: #fff;
+	border: 1px solid #716af4;
+	color: #716af4;
+}
+.button9 {
+  	position: absolute;
+  	top: 94px;
+  	right: 191.26px;
+  	border-radius: 100px;
+  	border: 1px solid #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 20px;
+	transition: background-color 0.3s ease;
+}
+.button9 a {
+	color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button9:hover {
+	background-color: #fff;
+	color: #716af4;
+}
+.button9:active {
+	background-color: #fff;
+	border: 1px solid #716af4;
+	color: #716af4;
+}
+.button10 {
+  	position: absolute;
+  	top: 94px;
+  	right: 39.26px;
+  	border-radius: 100px;
+  	border: 1px solid #fff;
+  	display: flex;
+  	flex-direction: row;
+  	align-items: center;
+  	justify-content: center;
+  	padding: 8px 20px;
+	transition: background-color 0.3s ease;
+}
+.button10 a {
+	color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button10:hover {
+	background-color: #fff;
+	color: #716af4;
+}
+.button10:active {
+	background-color: #fff;
+	border: 1px solid #716af4;
+	color: #716af4;
+}
+.footer {
+  	position: absolute;
+  	width: 100%;
+  	top: 2899px;
+  	right: 0%;
+  	left: 0%;
+  	height: 220px;
+  	text-align: right;
+}
+.landing {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	height: 3119px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 18px;
+  	color: #fff;
+  	font-family: 'Open Sans';
+}
+
+}
+
+
+@media (min-width: 360px) and (max-width: 785px) {
+	.navbar {
+		display: none;
+  }
+  .button1 {
+	display: none;
+  }
+	.background-icon {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	border-radius: 24px;
+	max-width: 100%;
+	overflow: hidden;
+	height: 320px;
+}
+.p {
+	margin: 0;
+}
+.p1 {
+	margin: 0;
+	white-space: pre-wrap;
+}
+.h1 {
+	position: absolute;
+	top: 48px;
+	left: 20px;
+	line-height: 44px;
+}
+.subtitle {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	width: auto;
+}
+.div {
+	position: relative;
+	line-height: 24px;
+	font-weight: 600;
+}
+.button2 {
+	position: absolute;
+	width: 100%;
+	top: 332px;
+	right: 0px;
+	left: 0px;
+	border-radius: 100px;
+	background-color: #ff8c4b;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 32px;
+	box-sizing: border-box;
+	font-size: 16px;
+	font-weight: 600;
+}
+.button2 a {
+    color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button2:active {
+    background-color: #FF7C32;
+    border: 1px solid #fff; /* Добавим белую рамку */
+	color:#fff
+}
+.cat-and-girl-icon {
+	position: absolute;
+	top: 2.68px;
+	right: 0.33px;
+	width: 135px;
+	height: 131px;
+}
+.e {
+	position: absolute;
+	top: 32.42px;
+	right: 97.8px;
+	line-height: 15px;
+	display: inline-block;
+	width: 1.1px;
+}
+.n {
+	position: absolute;
+	top: 13.13px;
+	right: 80.96px;
+	line-height: 15px;
+	color: #fff;
+	display: inline-block;
+	width: 2.4px;
+}
+.g {
+	position: absolute;
+	top: 25.99px;
+	right: 65.45px;
+	line-height: 15px;
+	color: #ffe55d;
+	display: inline-block;
+	width: 1.3px;
+}
+.l {
+	position: absolute;
+	top: 0px;
+	right: 53.64px;
+	line-height: 15px;
+	color: #ffad61;
+}
+.i {
+	position: absolute;
+	top: 2.95px;
+	right: 24.46px;
+	line-height: 15px;
+	color: #fff;
+	display: inline-block;
+	width: 1.3px;
+	transform:  rotate(180deg);
+	transform-origin: 0 0;
+}
+.s {
+	position: absolute;
+	top: 21.17px;
+	right: 15.07px;
+	line-height: 15px;
+	display: inline-block;
+	width: 0.5px;
+}
+.h {
+	position: absolute;
+	top: 5.63px;
+	right: 0.05px;
+	line-height: 15px;
+	color: #ffe55d;
+	display: inline-block;
+	width: 2.4px;
+}
+.abc {
+	position: absolute;
+	top: 0px;
+	right: 16.33px;
+	width: 98.9px;
+	height: 47.4px;
+}
+.illustration {
+	position: absolute;
+	top: 162px;
+	right: 20px;
+	width: 148px;
+	height: 148px;
+	font-size: 10.72px;
+	color: #ff8c4b;
+	font-family: Quando;
+}
+.mainscreen {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 62px;
+	right: 20px;
+	left: 20px;
+	height: 320px;
+	font-size: 36px;
+	border-radius: 24px 24px 24px 24px;
+  	background: radial-gradient(50% 50% at 50% 50%, #716af4, #748aff);
+	color: #fff;
+	font-family: 'Open Sans';
+}
+.card-bg1 {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	border-radius: 24px;
+	border: 1px solid #716af4;
+	box-sizing: border-box;
+	height: 150px;
+}
+.icon1 {
+	width: 24px;
+	position: relative;
+	height: 24px;
+}
+.icon1-parent {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 13px;
+	opacity: 0.8;
+	font-family: 'Open Sans';
+	color: #716af4;
+	font-weight: 600;
+}
+.subtitle1 {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 60px;
+	left: 20px;
+	font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
+}
+.card1 {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 462px;
+	right: 20px;
+	left: 20px;
+	height: 150px;
+	color: #716af4;
+	font-family: 'Open Sans';
+
+}
+.icon2-parent {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 13px;
+	color: #fff;
+	font-weight: 600;
+}
+.card2 {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 624px;
+	right: 20px;
+	left: 20px;
+	height: 150px;
+	color: #716af4;
+	font-family: 'Open Sans';
+}
+.card3 {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 786px;
+	right: 20px;
+	left: 20px;
+	height: 150px;
+	background-color: #ff8c4b;
+	border-radius: 24px;
+	color:#fff;
+	font-family: 'Open Sans';
+}
+.img-icon {
+	position: absolute;
+	width: 100%;
+	top: 615px;
+	right: 0px;
+	left: 0px;
+	border-radius: 24px;
+	max-width: 100%;
+	overflow: hidden;
+	height: 400px;
+	object-fit: cover;
+}
+.card-bg-about-me-icon {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	border-radius: 24px;
+	max-width: 100%;
+	overflow: hidden;
+	height: 545px;
+}
+.text {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 20px;
+	left: 20px;
+	line-height: 22px;
+	display: inline-block;
+	color: #fff;
+}
+.vector2-icon {
+	position: absolute;
+	top: 477px;
+	right: 0px;
+	width: 84px;
+	height: 68px;
+}
+.card-about-me {
+	position: absolute;
+	width: 100%;
+	top: 58px;
+	right: 0px;
+	left: 0px;
+	height: 545px;
+	background-color: #716af4;
+	border-radius: 24px;
+}
+.title-about-me {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 24px;
+	line-height: 34px;
+	color: #ff8c4b;
+	font-family: 'Open Sans';
+}
+.about-me {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 976px;
+	right: 20px;
+	left: 20px;
+	height: 1015px;
+	font-size: 14px;
+	font-family: 'Open Sans';
+	
+}
+.card-bg4 {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	border-radius: 24px;
+	background-color: #ffad61;
+	height: 432px;
+}
+.svg-individual-icon {
+	position: absolute;
+	top: 76px;
+	left: calc(50% - 77px);
+	width: 154px;
+	height: 154px;
+	overflow: hidden;
+}
+.icon4 {
+	width: 24px;
+	position: relative;
+	height: 24px;
+	z-index: 1;
+}
+.services {
+	position: relative;
+	line-height: 24px;
+	font-weight: 400;
+	z-index: 0;
+	font-family: 'Open Sans';
+	
+}
+.icon4-parent {
+	position: absolute;
+	top: 40px;
+	left: calc(50% - 125px);
+	width: 250px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 12px;
+	font-size: 16px;
+	font-weight: 600;
+}
+.span {
+	font-weight: 600;
+}
+.b {
+	font-family: 'Open Sans';
+}
+.span2 {
+	font-weight: 600;
+	font-family: 'Open Sans';
+}
+.subtitle4 {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 246px;
+	left: 20px;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+.div6 {
+	position: absolute;
+	top: 364px;
+	left: calc(50% - 37px);
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	display: inline-block;
+	font-family: 'Open Sans';
+	font-weight: 600;
+	}
+.div1 {
+	position: absolute;
+	top: 364px;
+	left: calc(50% - 37px);
+	line-height: 28px;
+	font-weight: 600;
+	display: inline-block;
+	width: 74px;
+}
+.div2 {
+	position: relative;
+	line-height: 28px;
+	font-weight: 600;
+}
+.button3 {
+	position: absolute;
+	width: 100%;
+	top: 444px;
+	right: 0px;
+	left: 0px;
+	border-radius: 100px;
+	border: 1px solid #ffad61;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 20px;
+	text-align: right;
+	color: #ffad61;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.button3 a {
+    color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button3:active {
+    background-color: #ffad61;
+    border: 1px solid #fff; /* Добавим белую рамку */
+	color:#fff
+}
+.card-orange {
+	position: absolute;
+	width: 100%;
+	top: 58px;
+	right: 0px;
+	left: 0px;
+	height: 488px;
+	font-size: 18px;
+	color: #fff;
+}
+.card-bg5 {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	border-radius: 24px;
+	background-color: #748aff;
+	height: 432px;
+}
+.svg-group-icon {
+	position: absolute;
+	top: 76px;
+	left: calc(50% - 77px);
+	width: 154px;
+	height: 154px;
+	overflow: hidden;
+}
+.icon5-parent {
+	position: absolute;
+	top: 40px;
+	left: calc(50% - 97px);
+	width: 195px;
+	height: 24px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 12px;
+	font-weight: 600;
+	font-family: 'Open Sans';
+}
+.subtitle5 {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 246px;
+	left: 21px;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	display: inline-block;
+	height: 112px;
+}
+.div3 {
+	position: absolute;
+	top: 366px;
+	left: calc(50% - 35px);
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+	display: inline-block;
+	width: 74px;
+	height: 28px;
+}
+.button4 {
+	position: absolute;
+	width: 100%;
+	top: 444px;
+	right: 0px;
+	left: 0px;
+	border-radius: 100px;
+	border: 1px solid #748aff;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 32px;
+	color: #748aff;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.button4 a {
+    color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button4:active {
+    background-color: #748aff;
+    border: 1px solid #fff; /* Добавим белую рамку */
+	color:#fff
+}
+.card-blue {
+	position: absolute;
+	width: 100%;
+	top: 590px;
+	right: 0px;
+	left: 0px;
+	height: 492px;
+	color: #fff;
+}
+.card-bg6 {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	border-radius: 24px;
+	background-color: #716af4;
+	height: 432px;
+}
+.svg-homework-icon {
+	position: absolute;
+	top: 76px;
+	left: calc(50% - 79px);
+	width: 154px;
+	height: 154px;
+	overflow: hidden;
+}
+.icon6-parent { 
+	position: absolute;
+	top: 40px;
+	left: calc(50% - 71px);
+	width: 143px;
+	height: 24px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+	gap: 12px;
+	font-weight: 600;
+	font-family: 'Open Sans';
+	color: #fff;
+}
+.subtitle6 {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 246px;
+	left: 13px;
+	font-size: 14px;
+	line-height: 22px;
+	text-align: center;
+	display: inline-block;
+	height: 112px;
+	color: #fff;
+}
+.div10 {
+	position: absolute;
+	top: 366px;
+	left: calc(50% - 37px);
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 600;
+	display: inline-block;
+	width: 74px;
+	height: 28px;
+}
+.button5 {
+	position: absolute;
+	width: 100%;
+	top: 444px;
+	right: 0px;
+	left: 0px;
+	border-radius: 100px;
+	border: 1px solid #716af4;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 20px;
+	text-align: right;
+	color: #716af4;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.button5 a {
+    color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button5:active {
+    background-color: #716af4;
+    border: 1px solid #fff; /* Добавим белую рамку */
+	color:#fff
+}
+.card-purple {
+	position: absolute;
+	width: 100%;
+	top: 1126px;
+	right: 0px;
+	left: 0px;
+	height: 492px;
+	color: #fff;
+}
+.title-srvices {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	font-size: 24px;
+	line-height: 34px;
+	color: #716af4;
+}
+.services {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 2031px;
+	right: 20px;
+	left: 20px;
+	height: 1618px;
+}
+.banner-bg {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	border-radius: 24px;
+	background-color: #716af4;
+	height: 194px;
+}
+.title7 {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	line-height: 34px;
+	color: #fff;
+	font-family: 'Open Sans';
+}
+.span12 {
+	font-family: 'Open Sans';
+	color: #fff;
+}
+.span14 {
+	color: #ffad61;
+}
+.span15 {
+	color: #fff;
+}
+.p18 {
+	margin: 0;
+	color: #fff;
+}
+.subtitle7 {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 66px;
+	left: 20px;
+	font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
+	color: #ffad61;
+}
+.vector3-icon {
+	position: absolute;
+	top: 130px;
+	right: 0px;
+	width: 48px;
+	height: 64px;
+	object-fit: contain;
+	color: #fff;
+}
+.button6 {
+	position: absolute;
+	width: 100%;
+	top: 206px;
+	right: 0px;
+	left: 0px;
+	border-radius: 100px;
+	background-color: #ff8c4b;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 12px 32px;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 600;
+}
+.button6 a {
+    color: inherit; /* Цвет текста наследуется от родителя (белый) */
+    text-decoration: none; /* Убираем подчеркивание текста */
+}
+.button6:active {
+		background-color: #FF7C32;
+		color:#fff
+}
+.banner {
+	position: absolute;
+	width: calc(100% - 40px);
+	top: 3689px;
+	right: 20px;
+	left: 20px;
+	height: 254px;
+	font-size: 24px;
+	font-family: 'Open Sans';
+	
+}
+.footer-bg {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	border-radius: 24px 24px 0px 0px;
+	background: radial-gradient(50% 50% at 50% 50%, #716af4, #748aff);
+	height: 144px;
+}
+.subtitle-8 {
+	position: absolute;
+	top: 20px;
+	left: calc(50% - 39px);
+	line-height: 24px;
+	font-weight: 600;
+	text-align: left;
+	font-weight: 600;
+	font-family: 'Open Sans';
+	color: #fff;
+}
+.mail-icon {
+	width: 48px;
+	position: relative;
+	height: 48px;
+}
+.contacts {
+	position: absolute;
+	top: 56px;
+	left: calc(50% - 60px);
+	width: 119.8px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 24px;
+}
+.button7 {
+	display: none;
+}
+.button8 {
+	display: none;
+}
+.button9 {
+	display: none;
+}
+.button10 {
+	display: none;
+}
+.footer {
+	position: absolute;
+	width: 100%;
+	top: 3983px;
+	right: 0px;
+	left: 0px;
+	height: 144px;
+	text-align: right;
+}
+.mobile {
+	width: 100%;
+	position: relative;
+	background-color: #fff;
+	height: 4127px;
+	overflow-y: auto;
+	text-align: left;
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Open Sans';
+}
+}
