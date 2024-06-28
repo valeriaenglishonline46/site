@@ -499,8 +499,8 @@
 .icon5-parent {
   	position: absolute;
   	top: 40px;
-  	left: calc(50% - 114px);
-  	width: 228.2px;
+  	left: calc(50% - 114.42px);
+  	width: 239px;
   	display: flex;
   	flex-direction: row;
   	align-items: center;
